@@ -2,6 +2,6 @@
 
 learning the basics core concepts of threejs
 
-demo:
+demo: <https://learning-three-js-part2.vercel.app/>
 
 ![alt](./readme.png)

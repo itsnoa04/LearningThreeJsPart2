@@ -293,7 +293,7 @@ const animate = (time) => {
   step += options.sphereSpeed;
   sphere.position.y = 20 * Math.abs(Math.sin(step)) + 4;
 
-  for (vertex in plane2.geometry.attributes.position.array) {
+  for (let vertex in plane2.geometry.attributes.position.array) {
     plane2.geometry.attributes.position.array[vertex] +=
       Math.random() * 0.5 - 0.25;
   }
